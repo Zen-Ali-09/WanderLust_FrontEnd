@@ -241,11 +241,27 @@ section .container > *{
     section .container{
         grid-template-columns: 1fr;
     }
+
+    .d{
+        font-size: 2rem
+    }
+
+    .b{
+        font-size: 1rem
+    }
 }
 
 @media(max-width: 600px){
     .big-title{
         font-size: 3rem
+    }
+    
+    .d{
+        font-size: 2rem
+    }
+
+    .b{
+        font-size: 1rem
     }
 
     .text{
@@ -260,7 +276,7 @@ section .container > *{
 
 .type--A{
     --line_color : #fffcfc ;
-    --back_color : #af9ca6  ;
+    --back_color : #FFECF6  ;
   }
   .type--B{
     --line_color : #ffffff ;
